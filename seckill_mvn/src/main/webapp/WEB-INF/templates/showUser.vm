@@ -1,0 +1,6 @@
+#if(${user})
+	${user.name}
+#else
+	您查找的用户不存在
+#end	
+		
