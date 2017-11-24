@@ -1,5 +1,7 @@
 /**
  * Created by Administrator on 2016/5/27.
+ * 
+ * 
  */
 //存放主要交互逻辑js代码
 //javascript 模块化，方便维护修改

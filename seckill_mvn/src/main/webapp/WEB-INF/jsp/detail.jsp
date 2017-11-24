@@ -75,12 +75,12 @@
 <script src="../../resources/script/seckill.js" type="text/javascript" charset="UTF-8"></script>
 <script type="text/javascript">
     $(function(){
-      //detail.jsp使用EL表达式向javascript传入参数
-      seckill.detail.init({
-        seckillId:${seckill.seckillId},
-        startTime:${seckill.startTime.time},  //毫秒
-        endTime:${seckill.endTime.time}
-      });
+    	 //detail.jsp使用EL表达式向javascript传入参数
+        seckill.detail.init({
+          seckillId:${seckill.seckillId},
+          startTime:${seckill.startTime.time},  //毫秒
+          endTime:${seckill.endTime.time}
+        });
     });
 </script>
 </html>

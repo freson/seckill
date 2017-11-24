@@ -45,7 +45,17 @@ public class SeckillServiceImpl implements SeckillService {
     //md5盐值字符串，用于混淆MD5
     private final String slat = "asd$%^$156120#BbK0-%^%*&!&*fef~{}@##VJ*{))&@@@@#";
 
-    public List<Seckill> getSeckillList() {
+    
+    
+    
+    /** 
+	* <p>Title: </p> 
+	* <p>Description: </p>  
+	*/ 
+	private SeckillServiceImpl() {
+	}
+
+	public List<Seckill> getSeckillList() {
         return seckillDao.queryAll(0, 4);
     }
 

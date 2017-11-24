@@ -1,4 +1,4 @@
-activeProfiles=
+activeProfiles=D\:\\apache-maven-3.2.1\\conf\\settings.xml
 eclipse.preferences.version=1
 fullBuildGoals=process-test-resources
 resolveWorkspaceProjects=true

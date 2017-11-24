@@ -38,6 +38,7 @@
 		<property name="typeAliasesPackage" value="org.seckill.entity"></property>
 		<!--扫描sql配置文件 classpath后面的*不可少! -->
 		<property name="mapperLocations" value="classpath*:/mapper/*.xml"></property>
+		
 	</bean>
 
 	<!--配置扫描dao接口包，动态实现dao接口，注入到spring容器中 -->

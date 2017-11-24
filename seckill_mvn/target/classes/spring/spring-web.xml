@@ -17,12 +17,12 @@
     <!-- 2.静态资源默认servlet配置 -->
     <mvc:default-servlet-handler></mvc:default-servlet-handler>
 
-    <!-- 3.配置jsp，显示ViewResolver
+    <!-- 3.配置jsp，显示ViewResolver-->
     <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
         <property name="viewClass" value="org.springframework.web.servlet.view.JstlView"></property>
         <property name="prefix" value="/WEB-INF/jsp/"></property>
         <property name="suffix" value=".jsp"></property>
-    </bean>-->
+    </bean>
 
     <!-- 4.扫描web相关的控制器bean -->
     <context:component-scan base-package="org.seckill.web"></context:component-scan>
